@@ -239,6 +239,23 @@ client.on("message", message => {
 
 			 
 ${prefix}public ⥨ الاوامر العامة
+ #invite ⥨ لدعوة البوت الى سيرفرك
+⤠ #server ⥨ معلومات عن السيرفر                      
+⤠ #say ⥨ البوت يردد كلامك         
+⤠ #setcolor ⥨ عشان تغير لونك ملاحظة لازم تحط رقم اللون                                          
+⤠ #bot ⥨ معلومات عن البوت
+⤠ #ping ⥨ لمعرفه سرعه البوت
+⤠ #members ⥨ معلومات عن الاعضاء
+⤠ #emojilist ⥨ لعرض الايموجي حقت السيرفر
+⤠ #id ⥨ لمعرفة معلومات حسابك
+⤠ #avatar ⥨ لاعطائك صورة الشخص اللي منشنته مع الرابط
+⤠ #link ⥨ يعطيك رابط انفايت للسيرفر اللي انت فيه
+⤠ #trans <language> <any thing> ⥨ يترجم لك الي تبيه من اي لغة
+⤠ #short ⥨ لاختصار الروابط
+⤠ #embed ⥨ كتابة كلامك داخل امبد
+⤠ #tag ⥨ يكتب لك الكلمة بشكل جميل وكبير
+⤠ #contact ⥨ لارسال رسالة لصاحب البوت
+⤠ #support ⥨ لدخول سيرفر دعم البوت
 
 ${prefix}admin ⥨ اوامر الادارة
 			 
@@ -456,7 +473,7 @@ client.on('message', message => {
 
 
 client.on('message', function(message) {
-	const myID = "494130483395821568";
+	const myID = "545977122913648640";
     let args = message.content.split(" ").slice(1).join(" ");
     if(message.content.startsWith(prefix + "setname")) {
 		        if(message.author.id !== myID) return;
