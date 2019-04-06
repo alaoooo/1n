@@ -216,7 +216,7 @@ client.on('message', function(msg) {
             text = co.first().content
 
               message.channel.send(`تم حفظ اقتراحك الرجاء انتضار الرد من قبل الاداره`)
-                client.channels.get("558297515582160897").send(`${message.author.username}'s sug => ${text}`)
+                client.channels.get("563870588607922176").send(`${message.author.username}'s sug => ${text}`)
 
               })
             }
@@ -320,7 +320,7 @@ client.on('guildCreate', guild => {
          const embed = new Discord.RichEmbed()
      .setColor("RED")
      .setTitle('Click Here To The Add Bot .!')
-     .setURL('https://discordapp.com/api/oauth2/authorize?client_id=558298401004060673&permissions=8&scope=bot')
+     .setURL('كل زق ')
   .setDescription(`**
   Someone Added Me ✅
 اسم السيرفر: ${guild.name}
@@ -332,7 +332,7 @@ client.on('guildDelete', guild => {
          const embed = new Discord.RichEmbed()
      .setColor("GOLD")
      .setTitle('Click Here To The Add Bot .!')
-     .setURL('https://discordapp.com/api/oauth2/authorize?client_id=558298401004060673&permissions=8&scope=bot')
+     .setURL('كل زق')
   .setDescription(`**
   I Got Kicked :cry:
 اسم السيرفر: ${guild.name}
@@ -345,7 +345,7 @@ client.channels.get("470259562121920512").sendEmbed(embed)
 
 client.on('ready', function(){
     var ms = 10000 ;
-    var setGame = ['CLAN XM','#help','CLAN XM','#help','CLAN XM'];
+    var setGame = ['Night Community','the best','Night Community','the best','by jak'];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -471,7 +471,7 @@ client.on('message', message => {
 
 
 client.on('message', function(message) {
-	const myID = "545977122913648640";
+	const myID = "558220897547452418";
     let args = message.content.split(" ").slice(1).join(" ");
     if(message.content.startsWith(prefix + "setname")) {
 		        if(message.author.id !== myID) return;
@@ -661,7 +661,7 @@ client.on("guildMemberAdd", member => {
    
   client.on('message',async message => {
     if(message.content.startsWith(prefix + "restart")) {
-        if(message.author.id !== "244888652004458497") return message.reply('You aren\'t the bot owner.');
+        if(message.author.id !== "558220897547452418") return message.reply('You aren\'t the bot owner.');
         message.channel.send('**Restarting.**').then(msg => {
             setTimeout(() => {
                msg.edit('**Restarting..**');
@@ -742,7 +742,7 @@ if(!args[0]) return message.reply('مرجو كتابة نص الدي تريد');
 
    
    client.on("message", message => {
-  if (message.content === "#avatar") {
+  if (message.content === "صوره") {
    const embed = new Discord.RichEmbed()
        .setColor('RANDOM') 
        .setFooter('By ! ~ D e v i l')
@@ -813,7 +813,7 @@ if (message.content.startsWith(prefix + 'trans')) {
      let embed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
   .setColor("#9B59B6")
-  .addField(" ** :scales:سيرفر الدعم:scales:  **" , "  **https://discord.gg/6svmrx**")
+  .addField(" ** :scales:سيرفر الدعم:scales:  **" , "  **https://discord.gg/xrsR9b**")
      
      
   message.channel.sendEmbed(embed);
@@ -828,7 +828,12 @@ client.on('message', message => {
                 if(message.content === prefix + "invite") {
                     let embed = new Discord.RichEmbed ()
                     embed.setTitle("**:point_right: Click Here**")
-                  .setFooter(`bot owner `,'https://discordapp.com/api/oauth2/authorize?client_id=558298401004060673&permissions=8&scope=bot')
+                  .setFooter(`لا يقلبي ذا بوت خاص لسيرفر Night Community `,'https://cdn.discordapp.com/attachments/563817967415197706/564090021397790720/a2ce8a67a781a2e4.jpg')
+			
+			
+			
+			
+			
                   .setURL("https://goo.gl/ADmgeW");
                    message.channel.sendEmbed(embed);
                   }
@@ -912,7 +917,7 @@ client.on('message', message => {
    
    client.on('message', message => {
 
-    if (message.content.startsWith("#link")) {        
+    if (message.content.startsWith("رابط")) {        
   message.channel.createInvite({
         thing: true,
         maxUses: 100,
